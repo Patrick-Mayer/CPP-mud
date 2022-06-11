@@ -1,11 +1,12 @@
 /*
  * @author: Geeksforgeeks
- * @brief: Needed for graph class
+ * @brief: Reference for using graph, could be useful down the line.
  */
 
 package Utilities;
 
-import Entities.graph;
+import java.util.*;
+import Utilities.Graph;
 
 // Driver Code
 public class Main {

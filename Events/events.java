@@ -5,16 +5,6 @@
 
 package Events;
 
-public class events {
-    public String name, description;
-
-    public events() {
-        name = "";
-        description = "";
-    }
-
-    public events(String nName, String nDescription){
-        name = nName;
-        description = nDescription;
-    }
+public abstract class events {
+    public abstract void start();
 };
