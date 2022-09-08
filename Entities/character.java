@@ -8,13 +8,14 @@ package Entities;
 public class character extends entity {
     //? index in array?
     public int position;
+    public String inventory[];
     
     public character(){
-        super("", "");
+        super();
         position = 0;
     }
-    public character(String nName, String nDescription, int pos){
-        super(nName, nDescription);
+    public character(String nName, String nDescription, int pos, String inv[]){
+        super(nName, nDescription, inv);
         position = pos;
     }
 };

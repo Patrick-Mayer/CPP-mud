@@ -11,16 +11,19 @@
 
 package Entities;
 
-public class entity {
+public abstract class entity {
     public String name, description;
+    public String items[];
 
     public entity() {
         name = "";
         description = "";
+        items = new String[]{"You have no items"};
     }
 
-    public entity(String nName, String nDescription){
+    public entity(String nName, String nDescription, String arr[]){
         name = nName;
         description = nDescription;
+        items = arr;
     }
 };
